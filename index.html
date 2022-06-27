@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="fixed w-full top-0 flex justify-between py-4 px-5 z-50 backdrop-blur-[2px]">
+        <div>
+            Aldilan
+        </div>
+        <div class="font-bebas text-lg font tracking-widest">ABOUT</div>
+    </nav>
+    <main class="min-w-full grid w-full overflow-hidden bg-black">
+        <section class="relative h-[97vh] flex flex-col px-4 items-center justify-center transition-all duration-500 !bg-white" id="cardSect">
+            <div class="w-full relative -mt-16">
+                <div class="w-44">
+                    <img class="grayscale" src="assets/img/fuutaro.jpg" alt="">
+                </div>
+                <span class="font-sequel absolute top-1/2 -translate-y-1/2 left-[6.5rem] text-2xl">ALDILAN</span>
+                <span class="font-sequel text-sm absolute bottom-0 right-0 text-right w-44">JUNIOR PROGRAMMER</span>
+            </div>
+            <div class="absolute bottom-12 text-center text-xl w-full font-sequel">
+                <h2 class="text-white">PROJECTS</h2>
+            </div>
+        </section>
+        <section class="flex justify-center px-3">
+            <div class="w-full gap-2 grid grid-cols-2 -mt-8 z-10">
+                <div class="w-full relative after:content-['dsfddsfsd'] after:flex after:justify-center after:text-white after:hover:bg-transparent after:transition-all after:items-center after:absolute after:w-full after:h-full after:top-0 after:bg-[#1A1A1A]" id="nitrotech">
+                    <img src="assets/img/miku.jpg" alt="">
+                </div>
+                <div class="w-full relative after:content-['dsfddsfsd'] after:flex after:justify-center after:text-white after:hover:bg-transparent after:transition-all after:items-center after:absolute after:w-full after:h-full after:top-0 after:bg-[#1A1A1A]">
+                    <img src="assets/img/miku.jpg" alt="">
+                </div>
+                <div class="w-full relative after:content-['dsfddsfsd'] after:flex after:justify-center after:text-white after:hover:bg-transparent after:transition-all after:items-center after:absolute after:w-full after:h-full after:top-0 after:bg-[#1A1A1A]">
+                    <img src="assets/img/miku.jpg" alt="">
+                </div>
+                <div class="w-full relative after:content-['dsfddsfsd'] after:flex after:justify-center after:text-white after:hover:bg-transparent after:transition-all after:items-center after:absolute after:w-full after:h-full after:top-0 after:bg-[#1A1A1A]">
+                    <img src="assets/img/miku.jpg" alt="">
+                </div>
+                <div class="w-full relative after:content-['dsfddsfsd'] after:flex after:justify-center after:text-white after:hover:bg-transparent after:transition-all after:items-center after:absolute after:w-full after:h-full after:top-0 after:bg-[#1A1A1A]">
+                    <img src="assets/img/miku.jpg" alt="">
+                </div>
+                <div class="w-full relative after:content-['dsfddsfsd'] after:flex after:justify-center after:text-white after:hover:bg-transparent after:transition-all after:items-center after:absolute after:w-full after:h-full after:top-0 after:bg-[#1A1A1A]">
+                    <img src="assets/img/miku.jpg" alt="">
+                </div>
+                <div class="w-full relative after:content-['dsfddsfsd'] after:flex after:justify-center after:text-white after:hover:bg-transparent after:transition-all after:items-center after:absolute after:w-full after:h-full after:top-0 after:bg-[#1A1A1A]">
+                    <img src="assets/img/miku.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="w-full flex flex-col text-black">
+            <h2 class="font-sequel text-3xl stroke tracking-widest px-3">CERTIFICATES</h2>
+            <!-- Slider main container -->
+            <div class="swiper w-full h-24 -mt-1 z-10 bg-purple-800">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiperConfig.js"></script>
+</body>
+</html>
